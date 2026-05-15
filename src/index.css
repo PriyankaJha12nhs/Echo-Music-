@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-accent: #ED5564;
+  --color-surface: #000000;
+  --color-on-surface: #FFFFFF;
+  --color-surface-variant: #0a0a0a;
+  --color-card: #1a1a1a;
+  --color-primary: #ED5564;
+  --color-secondary: #4FC3F7;
+  --color-spotify: #1DB954;
+
+  --rounded-card: 32px;
+}
+
+:root {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* We'll use a scrolling container inside the shell */
+}
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+}

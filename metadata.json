@@ -1,0 +1,6 @@
+{
+  "name": "Echo Music",
+  "description": "A modern, adaptive music client with Material 3 Expressive design. Features mocked YouTube Music streaming, library management, and dynamic theming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
